@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB11259B22412B24003005E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11259A22412B24003005E4 /* AppDelegate.swift */; };
+		EB11259D22412B24003005E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11259C22412B24003005E4 /* ViewController.swift */; };
+		EB1125A022412B24003005E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB11259E22412B24003005E4 /* Main.storyboard */; };
+		EB1125A222412B26003005E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1125A122412B26003005E4 /* Assets.xcassets */; };
+		EB1125A522412B26003005E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1125A322412B26003005E4 /* LaunchScreen.storyboard */; };
+		EB1125B022412B26003005E4 /* Estiam_PizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1125AF22412B26003005E4 /* Estiam_PizzaTests.swift */; };
+		EB1125BB22412B26003005E4 /* Estiam_PizzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1125BA22412B26003005E4 /* Estiam_PizzaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB1125AC22412B26003005E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB11258F22412B24003005E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB11259622412B24003005E4;
+			remoteInfo = "Estiam Pizza";
+		};
+		EB1125B722412B26003005E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB11258F22412B24003005E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB11259622412B24003005E4;
+			remoteInfo = "Estiam Pizza";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB11259722412B24003005E4 /* Estiam Pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Estiam Pizza.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB11259A22412B24003005E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB11259C22412B24003005E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB11259F22412B24003005E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB1125A122412B26003005E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB1125A422412B26003005E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB1125A622412B26003005E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB1125AB22412B26003005E4 /* Estiam PizzaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Estiam PizzaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1125AF22412B26003005E4 /* Estiam_PizzaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estiam_PizzaTests.swift; sourceTree = "<group>"; };
+		EB1125B122412B26003005E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB1125B622412B26003005E4 /* Estiam PizzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Estiam PizzaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1125BA22412B26003005E4 /* Estiam_PizzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estiam_PizzaUITests.swift; sourceTree = "<group>"; };
+		EB1125BC22412B26003005E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB11259422412B24003005E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1125A822412B26003005E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1125B322412B26003005E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB11258E22412B24003005E4 = {
+			isa = PBXGroup;
+			children = (
+				EB11259922412B24003005E4 /* Estiam Pizza */,
+				EB1125AE22412B26003005E4 /* Estiam PizzaTests */,
+				EB1125B922412B26003005E4 /* Estiam PizzaUITests */,
+				EB11259822412B24003005E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB11259822412B24003005E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB11259722412B24003005E4 /* Estiam Pizza.app */,
+				EB1125AB22412B26003005E4 /* Estiam PizzaTests.xctest */,
+				EB1125B622412B26003005E4 /* Estiam PizzaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB11259922412B24003005E4 /* Estiam Pizza */ = {
+			isa = PBXGroup;
+			children = (
+				EB11259A22412B24003005E4 /* AppDelegate.swift */,
+				EB11259C22412B24003005E4 /* ViewController.swift */,
+				EB11259E22412B24003005E4 /* Main.storyboard */,
+				EB1125A122412B26003005E4 /* Assets.xcassets */,
+				EB1125A322412B26003005E4 /* LaunchScreen.storyboard */,
+				EB1125A622412B26003005E4 /* Info.plist */,
+			);
+			path = "Estiam Pizza";
+			sourceTree = "<group>";
+		};
+		EB1125AE22412B26003005E4 /* Estiam PizzaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB1125AF22412B26003005E4 /* Estiam_PizzaTests.swift */,
+				EB1125B122412B26003005E4 /* Info.plist */,
+			);
+			path = "Estiam PizzaTests";
+			sourceTree = "<group>";
+		};
+		EB1125B922412B26003005E4 /* Estiam PizzaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB1125BA22412B26003005E4 /* Estiam_PizzaUITests.swift */,
+				EB1125BC22412B26003005E4 /* Info.plist */,
+			);
+			path = "Estiam PizzaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB11259622412B24003005E4 /* Estiam Pizza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB1125BF22412B26003005E4 /* Build configuration list for PBXNativeTarget "Estiam Pizza" */;
+			buildPhases = (
+				EB11259322412B24003005E4 /* Sources */,
+				EB11259422412B24003005E4 /* Frameworks */,
+				EB11259522412B24003005E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Estiam Pizza";
+			productName = "Estiam Pizza";
+			productReference = EB11259722412B24003005E4 /* Estiam Pizza.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB1125AA22412B26003005E4 /* Estiam PizzaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB1125C222412B26003005E4 /* Build configuration list for PBXNativeTarget "Estiam PizzaTests" */;
+			buildPhases = (
+				EB1125A722412B26003005E4 /* Sources */,
+				EB1125A822412B26003005E4 /* Frameworks */,
+				EB1125A922412B26003005E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB1125AD22412B26003005E4 /* PBXTargetDependency */,
+			);
+			name = "Estiam PizzaTests";
+			productName = "Estiam PizzaTests";
+			productReference = EB1125AB22412B26003005E4 /* Estiam PizzaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB1125B522412B26003005E4 /* Estiam PizzaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB1125C522412B26003005E4 /* Build configuration list for PBXNativeTarget "Estiam PizzaUITests" */;
+			buildPhases = (
+				EB1125B222412B26003005E4 /* Sources */,
+				EB1125B322412B26003005E4 /* Frameworks */,
+				EB1125B422412B26003005E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB1125B822412B26003005E4 /* PBXTargetDependency */,
+			);
+			name = "Estiam PizzaUITests";
+			productName = "Estiam PizzaUITests";
+			productReference = EB1125B622412B26003005E4 /* Estiam PizzaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB11258F22412B24003005E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Clement;
+				TargetAttributes = {
+					EB11259622412B24003005E4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EB1125AA22412B26003005E4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EB11259622412B24003005E4;
+					};
+					EB1125B522412B26003005E4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EB11259622412B24003005E4;
+					};
+				};
+			};
+			buildConfigurationList = EB11259222412B24003005E4 /* Build configuration list for PBXProject "Estiam Pizza" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB11258E22412B24003005E4;
+			productRefGroup = EB11259822412B24003005E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB11259622412B24003005E4 /* Estiam Pizza */,
+				EB1125AA22412B26003005E4 /* Estiam PizzaTests */,
+				EB1125B522412B26003005E4 /* Estiam PizzaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB11259522412B24003005E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1125A522412B26003005E4 /* LaunchScreen.storyboard in Resources */,
+				EB1125A222412B26003005E4 /* Assets.xcassets in Resources */,
+				EB1125A022412B24003005E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1125A922412B26003005E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1125B422412B26003005E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB11259322412B24003005E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB11259D22412B24003005E4 /* ViewController.swift in Sources */,
+				EB11259B22412B24003005E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1125A722412B26003005E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1125B022412B26003005E4 /* Estiam_PizzaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1125B222412B26003005E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1125BB22412B26003005E4 /* Estiam_PizzaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB1125AD22412B26003005E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB11259622412B24003005E4 /* Estiam Pizza */;
+			targetProxy = EB1125AC22412B26003005E4 /* PBXContainerItemProxy */;
+		};
+		EB1125B822412B26003005E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB11259622412B24003005E4 /* Estiam Pizza */;
+			targetProxy = EB1125B722412B26003005E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB11259E22412B24003005E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB11259F22412B24003005E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB1125A322412B26003005E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB1125A422412B26003005E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB1125BD22412B26003005E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB1125BE22412B26003005E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB1125C022412B26003005E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Estiam Pizza/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Clement-Garrigues.Estiam-Pizza";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB1125C122412B26003005E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Estiam Pizza/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Clement-Garrigues.Estiam-Pizza";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB1125C322412B26003005E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Estiam PizzaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Clement-Garrigues.Estiam-PizzaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Estiam Pizza.app/Estiam Pizza";
+			};
+			name = Debug;
+		};
+		EB1125C422412B26003005E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Estiam PizzaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Clement-Garrigues.Estiam-PizzaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Estiam Pizza.app/Estiam Pizza";
+			};
+			name = Release;
+		};
+		EB1125C622412B26003005E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Estiam PizzaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Clement-Garrigues.Estiam-PizzaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Estiam Pizza";
+			};
+			name = Debug;
+		};
+		EB1125C722412B26003005E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Estiam PizzaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Clement-Garrigues.Estiam-PizzaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Estiam Pizza";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB11259222412B24003005E4 /* Build configuration list for PBXProject "Estiam Pizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1125BD22412B26003005E4 /* Debug */,
+				EB1125BE22412B26003005E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB1125BF22412B26003005E4 /* Build configuration list for PBXNativeTarget "Estiam Pizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1125C022412B26003005E4 /* Debug */,
+				EB1125C122412B26003005E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB1125C222412B26003005E4 /* Build configuration list for PBXNativeTarget "Estiam PizzaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1125C322412B26003005E4 /* Debug */,
+				EB1125C422412B26003005E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB1125C522412B26003005E4 /* Build configuration list for PBXNativeTarget "Estiam PizzaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1125C622412B26003005E4 /* Debug */,
+				EB1125C722412B26003005E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB11258F22412B24003005E4 /* Project object */;
+}
